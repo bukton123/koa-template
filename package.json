@@ -1,0 +1,28 @@
+{
+  "name": "koa-template",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/bukton123/koa-template.git",
+  "author": "bukton <buk_ton2@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "dev-debug": "cross-env DEBUG=koa* nodemon",
+    "format": "prettier --write \"**/*.+(js|yml|yaml|json)\""
+  },
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "config": "^3.2.1",
+    "cross-env": "^5.2.0",
+    "joi": "^14.3.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-helmet": "^4.2.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
